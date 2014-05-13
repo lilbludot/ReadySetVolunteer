@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewVolunteerDialog</class>
+ <widget class="QDialog" name="NewVolunteerDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1146</width>
+    <height>890</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ReadySet Volunteer - First Time Volunteer Login</string>
+  </property>
+  <widget class="QLineEdit" name="firstNameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>140</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>First Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lastNameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>200</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Last Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="streetLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>140</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Street Address</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cityLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>200</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>City </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="homePhoneLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>290</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Home Phone</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="emergFirstLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>510</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>First Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="emergPhoneLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>600</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Emergency Contact Phone </string>
+   </property>
+  </widget>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>820</y>
+     <width>176</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="stateLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>230</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>State  </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="zipCodeLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>260</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string> Zip Code</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="miLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>170</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>MI</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="aptUnitLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>170</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Apartment/Unit #</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="altPhoneLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>320</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Alternate Phone</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="birthdateLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>230</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Birthdate mm/dd/yyyy</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="emailLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>350</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>E-mail address</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="olderThan18Checkbox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>280</y>
+     <width>191</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>I am 18 or older</string>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="youngerThan18Checkbox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>310</y>
+     <width>211</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>I am younger  than 18</string>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="parentGuardianLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>350</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Parent/ Legal Guardian </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="employmentLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>510</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Place of Employment</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="empStreetLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>540</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Street Address</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="empCityLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>570</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>City </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="empStateLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>600</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>State  </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="empZipCodeLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>630</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string> Zip Code</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="EmergencyLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>460</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Emergency Contact:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="emergLastLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>540</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Last Name </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="emergRelationshipLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>570</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Relationship</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="formTitleLabel">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>581</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Rosewood Initiative Volunteer Application&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="iContributeLabel">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>130</y>
+     <width>341</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;I would like to contribute to &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Rosewood in the following areas:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="anywhereCheckbox">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>200</y>
+     <width>231</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Anywhere </string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cafeCheckbox">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>230</y>
+     <width>231</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cafe</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="administrationCheckbox">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>260</y>
+     <width>231</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Administration</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="communityCheckbox">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>290</y>
+     <width>231</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Community Activities</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="YouthCheckbox">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>320</y>
+     <width>231</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Youth Programs</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="otherCheckbox">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>350</y>
+     <width>91</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Other:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="areasOfInteresLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>380</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Enter other areas of interest</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mondayFromLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>510</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>From </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mondayToLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>510</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>To</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="MondayLabel">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>520</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Monday</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tuesdayLabel">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>550</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tuesday</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="wednesdayLabel">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>580</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wednesday</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="thursdayLabel">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>610</y>
+     <width>79</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Thursday</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fridayLabel">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>640</y>
+     <width>79</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Friday</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="saturdayLabel">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>670</y>
+     <width>79</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Saturday</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sundayLabel">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>700</y>
+     <width>79</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sunday</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TuesdayFromLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>540</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>From </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="wednesdayFromLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>570</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>From </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="thursdayFromLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>600</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>From </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fridayFromLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>630</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>From </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="saturdayFromLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>660</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>From </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sundayFromLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>690</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>From </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="wednesdayToLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>570</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>To</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tuesdayToLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>540</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>To</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="thursdayToLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>600</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>To</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fridayToLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>630</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>To</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="saturdayToLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>660</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>To</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sundayToLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>690</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>To</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="availabilityLabel">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>460</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Availability: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>460</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Employment:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>firstNameLineEdit</tabstop>
+  <tabstop>miLineEdit</tabstop>
+  <tabstop>lastNameLineEdit</tabstop>
+  <tabstop>birthdateLineEdit</tabstop>
+  <tabstop>olderThan18Checkbox</tabstop>
+  <tabstop>youngerThan18Checkbox</tabstop>
+  <tabstop>parentGuardianLineEdit</tabstop>
+  <tabstop>streetLineEdit</tabstop>
+  <tabstop>aptUnitLineEdit</tabstop>
+  <tabstop>cityLineEdit</tabstop>
+  <tabstop>stateLineEdit</tabstop>
+  <tabstop>zipCodeLineEdit</tabstop>
+  <tabstop>homePhoneLineEdit</tabstop>
+  <tabstop>altPhoneLineEdit</tabstop>
+  <tabstop>emailLineEdit</tabstop>
+  <tabstop>emergFirstLineEdit</tabstop>
+  <tabstop>emergLastLineEdit</tabstop>
+  <tabstop>emergRelationshipLineEdit</tabstop>
+  <tabstop>emergPhoneLineEdit</tabstop>
+  <tabstop>employmentLineEdit</tabstop>
+  <tabstop>empStreetLineEdit</tabstop>
+  <tabstop>empCityLineEdit</tabstop>
+  <tabstop>empStateLineEdit</tabstop>
+  <tabstop>empZipCodeLineEdit</tabstop>
+  <tabstop>anywhereCheckbox</tabstop>
+  <tabstop>cafeCheckbox</tabstop>
+  <tabstop>administrationCheckbox</tabstop>
+  <tabstop>communityCheckbox</tabstop>
+  <tabstop>YouthCheckbox</tabstop>
+  <tabstop>otherCheckbox</tabstop>
+  <tabstop>areasOfInteresLineEdit</tabstop>
+  <tabstop>mondayFromLineEdit</tabstop>
+  <tabstop>mondayToLineEdit</tabstop>
+  <tabstop>TuesdayFromLineEdit</tabstop>
+  <tabstop>tuesdayToLineEdit</tabstop>
+  <tabstop>wednesdayFromLineEdit</tabstop>
+  <tabstop>wednesdayToLineEdit</tabstop>
+  <tabstop>thursdayFromLineEdit</tabstop>
+  <tabstop>thursdayToLineEdit</tabstop>
+  <tabstop>fridayFromLineEdit</tabstop>
+  <tabstop>fridayToLineEdit</tabstop>
+  <tabstop>saturdayFromLineEdit</tabstop>
+  <tabstop>saturdayToLineEdit</tabstop>
+  <tabstop>sundayFromLineEdit</tabstop>
+  <tabstop>sundayToLineEdit</tabstop>
+  <tabstop>buttonBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>youngerThan18Checkbox</sender>
+   <signal>clicked()</signal>
+   <receiver>parentGuardianLineEdit</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>145</x>
+     <y>342</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>220</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>otherCheckbox</sender>
+   <signal>clicked()</signal>
+   <receiver>areasOfInteresLineEdit</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>785</x>
+     <y>362</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>915</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

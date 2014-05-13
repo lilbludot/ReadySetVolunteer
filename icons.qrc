@@ -1,0 +1,90 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>icons/about24.png</file>
+    <file>icons/about32.png</file>
+    <file>icons/about48.png</file>
+    <file>icons/about64.png</file>
+    <file>icons/about128.png</file>
+
+    <file>icons/rosewood-logo-red.png</file>
+    <file>icons/rosewood-logo-black.png</file>
+
+
+    <file>icons/addVolunteer24.png</file>
+    <file>icons/addVolunteer32.png</file>
+    <file>icons/addVolunteer48.png</file>
+    <file>icons/addVolunteer64.png</file>
+    
+    <file>icons/bell32.png</file>
+    <file>icons/document24.png</file>
+    <file>icons/document32.png</file>
+    <file>icons/document48.png</file>
+    <file>icons/document64.png</file>
+    
+    <file>icons/check24.png</file> 
+    <file>icons/check32.png</file>  
+    <file>icons/check48.png</file>
+    <file>icons/check64.png</file>
+
+    <file>icons/close24.png</file>
+    <file>icons/close32.png</file>
+    <file>icons/close48.png</file>
+    <file>icons/close64.png</file>
+
+    <file>icons/edit24.png</file>
+    <file>icons/edit32.png</file>
+    <file>icons/edit48.png</file>
+    <file>icons/edit64.png</file>
+
+    <file>icons/folder24.png</file>
+    <file>icons/folder32.png</file>
+    <file>icons/folder48.png</file>
+    <file>icons/folder64.png</file>
+
+    <file>icons/guest24.png</file>
+    <file>icons/guest32.png</file>
+    <file>icons/guest48.png</file>
+    <file>icons/guest64.png</file>
+
+    <file>icons/info24.png</file>
+    <file>icons/info32.png</file>
+    <file>icons/info48.png</file>
+    <file>icons/info64.png</file>
+
+    <file>icons/lock24.png</file>
+    <file>icons/lock32.png</file>
+    <file>icons/lock48.png</file>
+    <file>icons/lock64.png</file>
+    <file>icons/lock128.png</file>
+
+
+    <file>icons/question24.png</file>
+    <file>icons/question32.png</file>
+    <file>icons/question48.png</file>
+    <file>icons/question64.png</file>
+    <file>icons/question128.png</file>
+
+    <file>icons/right24.png</file>
+    <file>icons/right32.png</file>
+    <file>icons/right48.png</file>
+    <file>icons/right64.png</file>
+
+    <file>icons/settings24.png</file>
+    <file>icons/settings32.png</file>
+    <file>icons/settings48.png</file>
+    <file>icons/settings64.png</file>
+
+    <file>icons/table24.png</file>
+    <file>icons/table32.png</file>
+    <file>icons/table48.png</file>
+    <file>icons/table64.png</file>
+
+    <file>icons/volunteer24.png</file>
+    <file>icons/volunteer32.png</file>
+    <file>icons/volunteer48.png</file>
+    <file>icons/volunteer64.png</file>
+
+
+
+</qresource>
+</RCC>
